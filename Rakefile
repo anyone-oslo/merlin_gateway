@@ -5,12 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "merlin_gateway"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "inge@elektronaut.no"
-    gem.homepage = "http://github.com/elektronaut/merlin_gateway"
+    gem.summary = %Q{Client for the Aspiro Merlin SMS gateway}
+    gem.description = %Q{Client for the Aspiro Merlin SMS gateway}
+    gem.email = "inge@manualdesign.no.no"
+    #gem.homepage = "http://github.com/elektronaut/merlin_gateway"
     gem.authors = ["Inge Jørgensen"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+	gem.add_dependency "builder", ">= 2.1.2"
+	gem.add_dependency "typhoeus", ">= 0.2.0"
+    #gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
