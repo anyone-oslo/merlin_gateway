@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'builder'
 require 'typhoeus'
+require 'pathname'
 
 dir = Pathname(__FILE__).dirname.expand_path
 
