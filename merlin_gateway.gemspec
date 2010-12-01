@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{merlin_gateway}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Inge J\303\270rgensen"]
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "lib/merlin_gateway.rb",
      "lib/merlin_gateway/client.rb",
      "lib/merlin_gateway/sms_message.rb",
+     "merlin_gateway.gemspec",
      "test/helper.rb",
      "test/test_merlin_gateway.rb"
   ]
