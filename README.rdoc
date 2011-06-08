@@ -1,17 +1,13 @@
-= merlin_gateway
+= MerlinGateway
 
-Description goes here.
+..is a client for the Aspiro Merlin SMS gateway. 
 
-== Note on Patches/Pull Requests
+== Usage example
  
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
-
+ client = MerlinGateway::Client.new(:username => 'myusername', :password => 'mypassword')
+ message = client.new_message(4712345678, 'This is a test')
+ message.deliver!
+ 
 == Copyright
 
-Copyright (c) 2010 Inge Jørgensen. See LICENSE for details.
+Copyright (c) 2010 Manual design. See LICENSE for details.

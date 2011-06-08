@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Inge J\303\270rgensen"]
   s.date = %q{2010-12-01}
   s.description = %q{Client for the Aspiro Merlin SMS gateway}
-  s.email = %q{inge@manualdesign.no.no}
+  s.email = %q{inge@manualdesign.no}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
