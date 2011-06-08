@@ -2,7 +2,14 @@
 
 ..is a client for the Aspiro Merlin SMS gateway. 
 
+== Installation
+
+ gem install merlin_gateway
+
 == Usage example
+ 
+ require 'rubygems'
+ require 'merlin_gateway'
  
  client = MerlinGateway::Client.new(:username => 'myusername', :password => 'mypassword')
  message = client.new_message(4712345678, 'This is a test')
