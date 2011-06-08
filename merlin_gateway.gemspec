@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Inge J\303\270rgensen"]
-  s.date = %q{2010-12-01}
+  s.date = %q{2011-06-08}
   s.description = %q{Client for the Aspiro Merlin SMS gateway}
-  s.email = %q{inge@manualdesign.no}
+  s.email = %q{inge@manualdesign.no.no}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
